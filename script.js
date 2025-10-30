@@ -7,3 +7,8 @@ changeTextBtn.addEventListener('click', function() {
     // Change the text content of the paragraph when the button is clicked
     message.textContent = "You clicked the button! 🎉";
 });
+
+const alertBtn = document.getElementById('alert');
+alertBtn.addEventListener('click', function() {
+    alert("Warning!");
+});
